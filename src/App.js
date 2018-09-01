@@ -4,7 +4,7 @@ import * as queryString from 'qs'
 import { default_state, default_state_string, filterState } from './State'
 
 let time_ref = Date.now()
-let status = 'out'
+let status = 'in'
 function toggleStatus(status) {
   if (status === 'in') return 'out'
   if (status === 'out') return 'in'
